@@ -1,0 +1,113 @@
+#pfp{
+    width: 100vw;
+}
+.skip{
+    background-color: transparent;
+    color: #5b3e38;
+    left: 0px;
+    padding: 6px;
+    /* -webkit-transition: top 1s ease-out; */
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+}
+.skip:focus{
+    top: 10px;
+}
+body {
+    background-color: #fffef2;
+  }
+.logo_name{
+    /* height: 60px;
+    width: 60px;
+    line-height: 60px;
+    -moz-border-radius: 30px; /* or 50% */
+    display:none;
+    border-radius: 30px; 
+    font-family: "Playfair Display";
+    font-size: 60px;
+    font-weight: lighter;
+    color: #5b3e38;
+    border: 3px solid #5b3e38;
+    text-align: center;
+    border-radius: 60%;
+    padding: 10px;
+
+}
+
+.nav_html{
+    padding: 6px 10px;
+    margin: 20px 0px ;
+}
+
+
+.nav_html a{
+    padding: 9px 15px;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: lighter;
+    border: 3px solid #f0a3da;
+    border-radius: 13px;
+    text-decoration: none;
+    background: #5b3e38;
+    color: #f0a3da;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6CB5B9;
+}
+/* Like header- puts nav links in a vertical column*/
+.nav_links{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (min-width: 725px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /* Aligns links with first header versus going below*/
+    .nav_links{
+        display: flex;
+        flex-direction: row;
+    }
+
+    body > header{
+        position: sticky; top: 0;
+    }
+
+
+    /* header nav{
+        display: inline;
+    }
+    header .nav_bar{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        padding: 8px 0;
+        font-family: 'Montserrat';
+        transition: all 0.3s ease;
+        background-color: #6CB5B9;
+    }
+    
+    header .nav_bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    header ul {
+        display: flex;
+    }
+    .skip:focus{
+        top: 110px;
+    } */
+
+  }

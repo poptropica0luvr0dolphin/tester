@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/html5reset.css">
+	<!-- Link to the stylesheet -->
+	<link rel="stylesheet" href="css/style1.css">
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <title>Maddie Kelsch Portfolio</title>
+</head>
+<body>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
+    <header>
+        <button class="header_button" id="btnNav" type="button">
+            <i class="material-icons">menu</i>
+        </button>
+        <img id="mk_logo" src="images/mk.png" alt="MK logo in dark brown">
+        <nav class = "nav " id="mainnave">
+            <!-- <div class="logo_name">MK</div> -->
+        <div class="nav_li">
+          <ul class="nav nav-pills" id = 'sidebar'>
+            <li class="nav__link nav__link--active"><a href="index.html">Main Page</a></li>
+            <li class="nav__link"><a href="more_info.html">Fun Pictures</a></li>
+            <li class="nav__link"><a href="contact.html">Contact Me!</a></li>
+          </ul>
+        </div>
+        <div class="nav__overlay"></div>
+        </nav>
+
+        
+    </header>
+    <div class="'contents-under">
+    <main class = "portfolio" id = 'skip' tabindex=”-1″>
+
+        <div class="pls_work">
+        <div id="business-pic">
+            <img id="pfp" src="images/main/head_shot.jpg" alt="Head shot of Maddie Kelsch in Business Casual wear"/> 
+        </div>
+
+        <div id="business-pic-standing">
+            <img id="pfp2" src="images/more info/head_farout.jpg" alt="Body shot of Maddie Kelsch in Business Casual wear"/> 
+        </div>
+        
+        <div class="intro_">
+        <h1>Hi, I'm Maddie Kelsch <br> and this is my official website!</h1>
+
+        <div class="br_icon">
+            <i class="material-icons">maximize</i>
+        </div>
+
+        <div class="brief_description">
+            <p>I'm currently a sophomore at the University of Michigan studying Information Analysis. I am (hopefully) pursuing a Bachelor's Degree in Information Sciences with a minor in History. I am originally from Grand Rapids, Michigan but predominantly live in Ann Arbor during the school year. This is my website- feel free to look around!</p>
+        </div>
+
+        </div>
+        </div>
+        <div class="h2_div">
+        <h2><span tabindex="0">Professional Experience</span></h2>
+        </div>
+
+        <div class="professional_exp">
+        <div class="ia info">
+            <h3><span tabindex="0">SI106 IA</span></h3>
+            <p>
+                In addition to being a student, I'm also an Instructor's assistant for an intro-level programming class (SI 106). I have found this opportunity to be a very positive experience. Through the job, I have found my love for teaching and hope to gain as much knowledge as I can and share it with the next generations.
+            </p>
+        </div>
+
+        <div class="summer_job22">
+            <h3><span tabindex="0">Summer Job</span></h3>
+            <p>
+                This past Summer, Summer 2022, I worked at a car factory. This job was not my favorite experience, as I worked 6am-4pm, but it taught me a lot. My job was to perform Gage R&R studies for the gages machinists used. In a group of 3, we analyzed measurements using SQL databases to assess if the gages were within protocol variation.
+            </p>
+        </div>
+
+        <div class="minwage_job">
+            <h3><span tabindex="0">Other jobs</span></h3>
+            <p>Since I was 15, I have had a job. There is a long list of jobs I've had that I don't want to go too in-depth into. These jobs are your typical high school jobs: from a Jimmy John's sandwich maker; to a camp counselor; to front desk reception. All of the said jobs, and more, have taught me not only the importance of hard work but also the importance of being kind to service/minimum wage workers.</p>
+        </div>
+
+        <div class="resume">
+            <h3><span tabindex="0">Résumé</span></h3>
+            <p>If you want a copy of my résumé please <a href='mailto:maddiekelsch@gmail.com'>email me</a> a request.</p>
+        </div>
+
+        </div>
+
+
+
+    </main>
+    </div>
+    <footer>
+        <p>&copy; Maddie Kelsch 2022</p>
+    </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', () =>{
+        const nav = document.querySelector('.nav');
+
+        document.querySelector('#btnNav').addEventListener('click', () =>{
+            nav.classList.add('nav--open');
+        });
+        document.querySelector('.nav__overlay').addEventListener('click', () =>{
+            nav.classList.remove('nav--open');
+    });
+});
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/html5reset.css">
+	<!-- Link to the stylesheet -->
+	<link rel="stylesheet" href="css/style1.css">
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <title>Pictures I like</title>
+</head>
+<body>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
+    <header>
+        <button class="header_button" id="btnNav" type="button">
+            <i class="material-icons">menu</i>
+        </button>
+        <img id="mk_logo" src="images/mk.png" alt="MK logo in dark brown">
+        <nav class = "nav " id="mainnave">
+            <!-- <div class="logo_name">MK</div> -->
+        <div class="nav_li">
+          <ul class="nav nav-pills" id = 'sidebar'>
+            <li class="nav__link"><a href="index.html">Main Page</a></li>
+            <li class="nav__link nav__link--active"><a href="more_info.html">Fun Pictures</a></li>
+            <li class="nav__link"><a href="contact.html">Contact Me!</a></li>
+          </ul>
+        </div>
+        <div class="nav__overlay"></div>
+        </nav>
+
+        
+    </header>
+    <div class="'contents-under">
+    <main class = "info" id = 'skip' tabindex=”-1″>
+
+        <div id="h1-pics">
+            <h1>Here are some pictures in my camera roll I really like!</h1>
+
+            <div class='gallery'>
+                <img id="moon" src="images/pics/moon.jpg" alt="Picture of moon from far away with somber blue sky" tabindex="0"/>
+                <img id="sail" src="images/pics/sail.jpg" alt="Sail boat on lake leelanau" tabindex="0"/>
+                <img id="scoops" src="images/pics/scoop.jpg" alt="Scoops 22 ice cream shoppe banner" tabindex="0"/>
+                <img id="dino" src="images/pics/dino_blu.jpg" alt="Dinosaur at the Natural History Museum" tabindex="0"/>
+                <img id="car" src="images/pics/car_wind.jpg" alt="Haybails shown through car window" tabindex="0"/>
+                <img id="ma" src="images/pics/ma.jpg" alt="My mom on a paddle board" tabindex="0"/>
+                <img id="cat" src="images/pics/cat_bed.jpg" alt="Calico cat laying on grey sofa" tabindex="0"/>
+                <img id="hockey" src="images/pics/hockey.JPEG" alt="Maddie Kelsch with Roommate Katie German at Katie's hockey game" tabindex="0"/>
+                <img id="awesome" src="images/pics/awesome.jpg" alt="Maddie Kelsch holding large sign that says awesome" tabindex="0"/> 
+                <img id="pa" src="images/pics/dad.jpg" alt="My dad holding all three of or cats" tabindex="0"/>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; Maddie Kelsch 2022</p>
+    </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', () =>{
+        const nav = document.querySelector('.nav');
+
+        document.querySelector('#btnNav').addEventListener('click', () =>{
+            nav.classList.add('nav--open');
+        });
+        document.querySelector('.nav__overlay').addEventListener('click', () =>{
+            nav.classList.remove('nav--open');
+    });
+});
+    
+</script>
+</body>
+</html>

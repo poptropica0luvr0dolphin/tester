@@ -1,0 +1,465 @@
+
+.skip{
+    background-color: transparent;
+    color: #5b3e38;
+    left: 0px;
+    padding: 6px;
+    /* -webkit-transition: top 1s ease-out; */
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+}
+.skip:focus{
+    top: 10px;
+}
+body {
+    background-color: #fffef2;
+  }
+
+.nav__link{
+    padding: 6px 10px;
+    margin: 20px 0px ;
+}
+#mk_logo{
+    width:150px;
+}
+
+.nav__link a{
+    padding: 9px 15px;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: lighter;
+    border: 3px solid #f0a3da;
+    border-radius: 13px;
+    text-decoration: none;
+    background: #5b3e38;
+    color: #f0a3da;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6CB5B9;
+}
+.nav_links{
+    display: flex;
+    flex-direction: column;
+}
+
+.header_button{
+    background: #6CB5B9;
+    border: none;
+    color: #5b3e38;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+}
+
+.nav__link--active a{
+    border: 3px solid #5b3e38;
+    border-radius: 13px;
+    text-decoration: none;
+    background: #f0a3da;
+    color: #5b3e38;
+    box-shadow: 5px 5px 0px rgba(19, 108, 163, 0.7);
+}
+
+/* Begin styling main page images and text */
+
+.intro_ h1{
+    font-family: "Playfair Display";
+    color:#5b3e38;
+    font-size: 36px;
+    text-align: center;
+    /* background: #6CB5B9; */
+    padding: 10px 0px;
+    margin-top: 25px;
+    /* border-radius: 50px; */
+}
+
+#pfp{
+    max-width: 100%;
+    /* overflow-x: hidden; */
+} 
+
+.br_icon{
+    color: #5b3e38;
+    text-align: center;
+    font-size: 50px;;
+}
+
+.brief_description p{
+    /* padding:0px 5px; */
+    font-size: 34px;
+    font-family: "Playfair Display";
+    color:#5b3e38;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.h2_div h2{
+    margin: 70px 0px 70px;
+    font-size: 30px;
+    font-family: "Playfair Display";
+    color:#5b3e38;
+    text-align: center;
+    max-width: 100%;
+}
+
+.h2_div h2 span{
+    padding: 8px 11px;
+    background: #6CB5B9;
+    border: 3px solid #5b3e38;
+    border-radius: 5px;
+}
+
+.professional_exp h3{
+    font-size: 26px;
+    font-family: "Playfair Display";
+    color:#fffef2;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.professional_exp h3 span{
+    padding: 2px;
+    background: #5b3e38;
+    border: 3px solid #6CB5B9;
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+
+.professional_exp p{
+    font-size: 18px;
+    font-family: "Playfair Display";
+    color:#5b3e38;
+    text-align: center;
+    margin: 15px 0px;
+    padding: 0px 10%;
+}
+
+.professional_exp{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.professional_exp div{
+    margin-bottom: 20px;
+    border: 2px solid #5b3e38;
+    max-width: 60%;
+    border-radius: 20px;
+    background-color: #f0a3da;
+}
+
+.resume a{
+    color:#5b3e38;
+    font-weight: bold;
+}
+
+footer{
+    color: #5b3e38;
+}
+
+.contact h1{
+    font-family: "Playfair Display";
+    color:#5b3e38;
+    font-size: 36px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px 0px;
+}
+
+.contact div h2{
+    font-family: "Playfair Display";
+    color:#5b3e38;
+    font-size: 24px;
+    margin:12px 10% 12px;
+} 
+
+.contact{
+    text-align: center;
+}
+
+.contact_divs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_divs div{
+    margin-bottom: 20px;
+    border: 2px solid #5b3e38;
+    max-width: 80%;
+    border-radius: 20px;
+    background-color: #f0a3da;
+    
+}
+.contact div p{
+    margin: 10px 10% 12px;
+    font-family: "Playfair Display";
+    color:#5b3e38;
+    font-size: 12px;
+}
+
+.contact_divs h2{
+    padding: 2px 0px;
+    background: #fffef2;
+    border: 3px solid #5b3e38;
+    border-radius: 10px;
+    padding: 3px 0px;
+}
+
+.contact_divs div{
+    margin: 10px 20px;
+    width: 320px;
+}
+
+.contact_divs h2 a{
+    color:#5b3e38;
+}
+
+#h1-pics h1{
+    font-family: "Playfair Display";
+    color:#f0a3da;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 20%;
+    padding: 10px;
+    background-color: #5b3e38;
+    border-radius: 10px;
+    border: 3px solid #f0a3da;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.gallery img{
+    max-width: 100%;
+    margin-bottom: 10px;
+    border: 3px solid #5b3e38;
+}
+
+
+@media only screen and (max-width: 724px){
+
+    .nav_li{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:2;
+    height: 100%;
+    width: 200px;
+    background: #fffef2;
+    transform: translateX(-200px);
+}
+    .nav__link{
+    display:flex;
+    align-items: center;
+    color:#5b3e38
+}
+.nav--open .nav_li{
+    transform: translateX(0);
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
+} 
+
+.nav__overlay{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh; 
+    backdrop-filter: grayscale(60%);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.nav--open .nav__overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+#pfp2{
+    display: none;
+}
+
+}
+
+
+@media only screen and (min-width: 725px) {
+    
+    .header_button{
+        display: none;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    body > header{
+        position: sticky; top: 0;
+    }
+
+    #mk_logo{
+        margin-left: 25px;
+        width: 120px;
+    }
+
+    .skip:focus{
+        top: 100px;
+        font-weight: bolder;
+        background-color: #6CB5B9;
+    }
+
+    
+ 
+    
+    .contact_divs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+
+    .contact_divs div{
+        width: 315px;
+    }
+
+    .contact_divs div{
+        margin-bottom: 20px;
+        border: 2px solid #5b3e38;
+        max-width: 60%;
+        border-radius: 20px;
+        background-color: #f0a3da;
+        
+    }
+
+    .contact_divs h2 span{
+        padding: 2px 5px;
+        background: #fffef2;
+        border: 3px solid #5b3e38;
+        border-radius: 10px;
+        padding: 3px 5px;
+    }
+
+    .contact_divs h2{
+        background: none;
+        border: none;
+    }
+
+
+    #pfp, #pfp2{
+        width: 50vw;
+        float: left;
+        margin-bottom: 70px;
+    
+    }
+    
+    .intro_{
+        margin-top: -80px;
+        width:70%;
+        text-align:center;
+        margin-left:15%;
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: center;
+        justify-items: center;
+        column-gap: 10px;
+    }
+    .gallery img{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #pa, #awesome{
+        height: 95%;
+    }
+    #sail, #scoops, #ma, #cat, #pa{
+        border: 3px solid #f0a3da;
+    }
+
+
+
+  
+    }
+
+  @media only screen and (min-width: 1100px){
+    .contact_divs div{
+        width: 320px;
+    }
+
+    #mk_logo{
+        width:100px;
+    }
+
+    .skip:focus{
+        top: 80px;
+    }
+
+    .contact_divs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+
+    .intro_{
+        margin-top: -200px;
+        width:50%;
+        text-align:center;
+        margin-left:25%;
+        margin-bottom:150px;
+    }
+
+    #pfp, #pfp2{
+        margin-bottom: 150px;
+    
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-items: stretch;
+        justify-content: center;
+    }
+    #awesome{
+        height:auto;
+    }
+
+    #moon, #car, #awesome, #pa{
+        border: 3px solid #5b3e38;
+    }
+
+    #sail, #ma, #cat{
+        border: 3px solid #6CB5B9;
+    }
+
+    #scoops, #dino, #hockey{
+        border: 3px solid #f0a3da;
+    }
+
+    #pa{
+        grid-column: 2/3;
+    }
+
+
+  }
